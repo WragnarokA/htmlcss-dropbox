@@ -10,7 +10,7 @@
 
 .box-bar{
  
-    height: 10vh;
+    height: 8vh;
     width: 100vw;
     display: flex;
     justify-content: space-between;
@@ -53,3 +53,68 @@
 }
 
 
+   /**** MAIN BODY  ****/
+
+   /* PRESENTATION */
+.presentation{
+    height: 65vh;
+    width: 100vw;
+    background-color: #b4d0e7;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+
+.box-section1{
+
+    width: calc(100vw - 40%);
+    height: 100%;
+    padding-top: 3%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1{
+    font-size: 391%;
+    height: 20%;
+    margin-bottom: 7%;
+   
+}
+   
+
+.description{
+    width: 35%;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+   
+  
+    
+}
+.free{
+    background-color: blue;
+    color: white;
+    width: 60%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow{
+    font-size: 250%;
+}
+.jumbo{
+    width: 42%;
+    position: absolute;
+    bottom: 0;
+    top: 41%;
+    left: 39.2%;
+
+   
+    
+}
+
+ 
