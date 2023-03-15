@@ -129,11 +129,11 @@ h1{
 .plan{
     width: 100%;
     min-height: 1250px;
-
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 
 /* PLAN SELECTION  */
     
@@ -257,7 +257,7 @@ h2{
 
 .or{
     margin: 0 0 2em 1em;
-    color: lightgray;
+    color: gray;
 }
 
  .line{
@@ -306,16 +306,46 @@ h2{
     position: relative;
     left: 49em;
     bottom: 12em;
-    
 }
     
     
+    /**** PARTNER *****/
 
-
+.partner{
+    width: 100%;
+    min-height: 800px;
+    display: flex;
+    justify-content: center;
    
+}
+   
+.partner-box{
+    margin-top: 7em;
+    max-width: 970px;
+    height: 55vh;
+   
+    display: flex;
+}
 
+.img-partner{
+   
+}  
+
+.description-partner-box{
+    max-width: 290px;
+    max-height: 300px;
+    
+    margin: 3em;
+
+}
   
-  
- 
+ .h3-partner{
+    font-size: 1.5em;
+    margin-bottom: 1em;
+ }
+ .button-span{
+    margin-top: 2em;
+    padding: 0.8em;
+ }
    
 
