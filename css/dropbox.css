@@ -3,15 +3,19 @@
     padding: 0;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    
+  
 }
+.flex{display: flex;}
+.blu{ color: #0061ff;}
 
 
-/* ***** NAV BAR *****/
+    /* ***** NAV BAR *****/
 
 .box-bar{
  
     height: 8vh;
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: space-between;
 }
@@ -21,8 +25,7 @@
  /* BAR LEFT  */
 
 .bar-left{
-    width: calc(100vw - 70%);
-   
+    width: calc(100% - 70%);
     list-style-type: none;
     display: flex;
     justify-content: space-around;
@@ -37,7 +40,7 @@
     
 /* BAR RIGTH  */
 .bar-rigth{
-    width: calc(100vw - 75%);
+    width: calc(100% - 75%);
 
     list-style-type: none;
     display: flex;
@@ -47,7 +50,7 @@
 
 .button-start{
     padding: 1.5% 3%;
-    background-color: blue;
+    background-color: #0061ff;
     color: white;
     border: none;
 }
@@ -57,34 +60,38 @@
 
    /* PRESENTATION */
 .presentation{
-    height: 65vh;
-    width: 100vw;
+    height: 70vh;
+    width: 100%;
     background-color: #b4d0e7;
     display: flex;
     justify-content: center;
     position: relative;
+
 }
 
 
 .box-section1{
-
-    width: calc(100vw - 40%);
+   
+    max-width: 1150px;
     height: 100%;
     padding-top: 3%;
     display: flex;
     flex-wrap: wrap;
 }
 
+   
+
 h1{
     font-size: 391%;
     height: 20%;
     margin-bottom: 7%;
+    font-weight: 900;
    
 }
    
 
 .description{
-    width: 35%;
+    max-width: 33%;
     height: 65%;
     display: flex;
     flex-direction: column;
@@ -94,10 +101,10 @@ h1{
     
 }
 .free{
-    background-color: blue;
+    background-color: #0061ff ;
     color: white;
     width: 60%;
-    height: 15%;
+    height: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -107,14 +114,208 @@ h1{
     font-size: 250%;
 }
 .jumbo{
-    width: 42%;
+    width: 47%;
+    height: 70%;
     position: absolute;
     bottom: 0;
-    top: 41%;
-    left: 39.2%;
+    top: 42%;
+    left: 39%;
+}
+    
 
-   
+/* <!-- *** PLAN SELECTION *** --> */
+
+
+.plan{
+    width: 100%;
+    min-height: 1250px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* PLAN SELECTION  */
+    
+.find-the-plane{
+    min-width: 970px;
+    max-height: 250px;
+    padding-top: 8%;  
+}
+
+h2{
+    font-size: 2.5em;
+    margin-bottom: 1.5em;
+}
+.point-selection{
+    list-style-type: none;
+    display: flex;
+    
+}
+
+.monthly{
+    margin-right: 3em;
+}
+
+.point1{
+    width: 1em;
+    height: 1em;
+    border: solid 4px #0061ff;
+    border-radius: 50%;
+}
+
+.point2{
+    width: 1em;
+    height: 1em;
+    border: solid 2px lightgrey;
+    border-radius: 50%;
+}
+
+/* ALL PLAN */
+
+.container-plan{
+    max-width: 970px;
+    min-height: 1250px;
+  
+    display: flex; 
+    justify-content: space-between; 
+    flex-wrap:wrap; 
+}
+
+.plan-professional{
+    width: 31%;
+    min-height: 920px;
+    margin-top: 3em;
+    background-color: white;
+    border: solid 1px lightgray;
+    list-style-type: none;
+    
+}
+
+.user-img{
+    text-align: center;
+    padding: 0.7em;
+}
+
+.subscription{
+    margin: 1.5em 0 1em 1em;
+}
+
+.price{
+    margin-left: 1em;
+}
+
+.price-contattaci{
+    margin: 0 0 4em 1em;
+}
+
+.time{
+    margin: 0.4em 0 0 1em ;
+    color: gray;
+}
+  
+
+.user{
+    margin: 2.5em 0 1em 1em;
     
 }
 
  
+.storage{
+    margin-left: 1em;
+    display: flex;
+}
+   
+.box-storage{
+    margin-left: 0.3em;
+    width: 88%;
+}
+    
+
+.share{
+    margin: 1em 0 1em 1em;
+    display: flex;
+}
+.box-share{
+    margin-left: 0.3em;
+    width: 85%;
+}
+ 
+.trial{
+    display: flex;
+    justify-content: center;
+    margin: 2em 0 2em 0;
+}
+.button-trial{
+    width: 90%;
+    padding: 1em;
+    background-color: #0061ff;
+    color: white;
+    border: none;
+}
+  
+
+.or{
+    margin: 0 0 2em 1em;
+    color: lightgray;
+}
+
+ .line{
+    margin: 0 0 3em 1em;
+    color: lightgray;
+ }
+
+ .plan-highlights{
+    margin: 0 0 2em 1em;
+ }
+    
+ .send-files{
+    margin: 0 0 1em 1em;
+    display: flex;
+    width: 80%;
+}
+
+
+.offline-folder{
+    margin: 0 0 1em 1em;
+    display: flex;
+    width: 80%;
+}
+
+
+.enterprice{
+    width: 100%;
+    min-height: 250px;
+    margin-top: 3em;
+    background-color: white;
+    border: solid 1px lightgray;
+    list-style-type: none;
+    
+}
+.solution{
+    margin: 4em 0 0 1em;
+    width: 70%;
+}
+
+.contact-button{
+    width: 30%;
+    padding: 1em;
+    background-color: #0061ff;
+    color: white;
+    border: none;
+    position: relative;
+    left: 49em;
+    bottom: 12em;
+    
+}
+    
+    
+
+
+   
+
+  
+  
+ 
+   
+
